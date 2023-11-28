@@ -2,7 +2,10 @@ import headlessuiPlugin from '@headlessui/tailwindcss'
 import { type Config } from 'tailwindcss'
 
 export default {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: [ 
+    "./index.html", 
+    "./src/**/*.{js,jsx,ts,tsx}"
+  ],
   theme: {
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
